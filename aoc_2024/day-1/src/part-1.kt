@@ -1,8 +1,8 @@
 import java.io.File
 
 fun main() {
-//    val input = "day-1/sample.txt"
-    val input = "day-1/input.txt"
+    val input = "aoc_2024/day-1/sample.txt"
+//    val input = "aoc_2024/day-1/input.txt"
     val lines = File(input).readLines()
 
     val left = mutableListOf<Int>()
